@@ -1,0 +1,15 @@
+{
+	"name": "vinothSqlServer2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=vinothvm;initial catalog=Employeedb;user id=vkizvm",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJlMjVkOGM0NC00Y2MxLTQ5MjktODhmOC0xNDVhYTE5NjViMjAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "vinothintegrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

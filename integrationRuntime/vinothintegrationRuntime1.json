@@ -1,0 +1,6 @@
+{
+	"name": "vinothintegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"name": "SourceDataset_rgt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "vinothSqlServer2",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"typeProperties": {
+			"tableName": "[dbo].[Emptab]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
